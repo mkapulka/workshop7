@@ -3,6 +3,7 @@ var token = 'base64';
  * Properly configure+send an XMLHttpRequest with error handling, authorization token,
  * and other needed properties.
  */
+ 
 function sendXHR(verb, resource, body, cb) {
   var xhr = new XMLHttpRequest();
   xhr.open(verb, resource);
